@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SITE RECEITAS SABOARIA",
-    "currentPage": "CONTATO.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -1374,10 +1374,11 @@
         }
       ]
     },
-    "CONTATO.html": {
+    "page1.html": {
       "settings": {
         "title": "Contato",
-        "order": 1
+        "order": 1,
+        "meta_descr": "pagina para contato"
       },
       "components": [
         {
