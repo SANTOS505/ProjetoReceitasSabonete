@@ -6,7 +6,7 @@
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
       "styling": {
-        "primaryColor": "#4ea2e3",
+        "primaryColor": "#ff4d00",
         "secondaryColor": "#4addff",
         "successColor": "#0dcd7b",
         "infoColor": "#8282e7",
@@ -15,9 +15,9 @@
         "mainFont": "Roboto",
         "display1Font": "Roboto",
         "display1Size": 4.5,
-        "display2Font": "Roboto",
+        "display2Font": "Oswald",
         "display2Size": 2.2,
-        "display5Font": "Roboto",
+        "display5Font": "Oswald",
         "display5Size": 1.8,
         "display7Font": "Roboto",
         "display7Size": 1.1,
@@ -28,19 +28,30 @@
         "arrowColor": "#4ea2e3"
       },
       "additionalSetColors": [
+        "#f71673",
+        "#ff00d3",
         "#ebf52d",
         "#ff4d00",
         "#027e00",
         "#efebe7",
-        "#008c0e",
-        "#12ac21",
-        "#f2ff00"
+        "#008c0e"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.6",
-    "siteFonts": [],
-    "uniqCompNum": 50,
+    "siteFonts": [
+      {
+        "css": "'Oswald', sans-serif",
+        "name": "Oswald",
+        "url": "https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
+      },
+      {
+        "css": "'Arimo', sans-serif",
+        "name": "Arimo",
+        "url": "https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i"
+      }
+    ],
+    "uniqCompNum": 51,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -3207,6 +3218,56 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when (@flexDirection)": {
+              ".mbr-row": {
+                "-webkit-flex-direction": "row-reverse",
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".text-block": {
+              "margin": "auto"
+            },
+            "@media (min-width: 768px)": {
+              ".video-block when (@flexDirection)": {
+                "padding-left": "2rem"
+              },
+              ".video-block when not (@flexDirection)": {
+                "padding-right": "2rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".video-block": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".btn when (@showButtons)": {
+              "margin": ".4rem 4px !important"
+            },
+            ".mbr-section-title DIV": {
+              "color": "#f71673"
+            },
+            ".mbr-text, .mbr-section-btn B": {
+              "color": "#000000"
+            },
+            ".mbr-section-title B": {
+              "color": "#f71673"
+            }
+          },
+          "_name": "features11",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" plugins=\"amp-main, amp-youtube\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked>\n        <input type=\"text\" title=\"Youtube Video URL\" name=\"videoUrl\" value=\"https://www.youtube.com/watch?v=mF2ofPE76UI\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#0dd1ff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"video-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-youtube width=\"16\" height=\"9\" layout=\"responsive\" data-videoid=\"lBTCB7yLs8Y\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </amp-youtube>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>VAGAS ABERTA RESTA 15 VAGAS!\n</b><div><b>PARA CURSO AVANÇADO&nbsp;</b></div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>Faturar De 3 a 10 Mil Por Mês Investindo 4 Horas Por Dia. Com Sabonete que mende Muito Aulas Avançadas vou Pegar na Sua Mão e te Ajudar.</b></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-5\"><a class=\"btn btn-sm btn-primary\" href=\"http://bit.ly/2VuHGAM\" data-app-placeholder=\"Type Text\" target=\"_blank\">APENAS 15 VAGAS DISPONIVEL</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rnaV8NldVC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "features11-1e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -3240,77 +3301,6 @@
           "_customHTML": "<section class=\"info2\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Text on Left/Right\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffb32d\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-right mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">AULA GRÁTIS! <br>Lembrancinhas Infantis Que Vende Muito</h2>\n                <h3 class=\"mbr-section-subtitle align-right mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque, rerum excepturi fuga reprehenderit laudantium, dolorum autem iusto ipsum harum perspiciatis nobis sequi sint.\n                </h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://santos505.github.io/ProjetoReceitasSabonete/page2.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">ASSISTIR AGORA!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rmIR2SEsLk",
           "_anchor": "info2-21",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-btn": {
-              "margin": "0.5rem"
-            },
-            ".mbr-section-btn > *": {
-              "margin": "0"
-            },
-            ".mbr-form": {
-              "@media (min-width: 768px)": {
-                "display": "flex",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                "-webkit-align-items": "center",
-                "align-items": "center"
-              },
-              "margin-left": "-0.5rem",
-              "margin-right": "-0.5rem"
-            },
-            ".fieldset": {
-              "-webkit-flex-basis": "auto",
-              "flex-basis": "auto",
-              "label": {
-                "margin": "0"
-              }
-            },
-            ".mbr-row when (@showSubtitle), (@showTitle)": {
-              "margin-top": "2rem"
-            },
-            "input": {
-              "color": "@labelsColor !important",
-              "border": "1px solid @borderColor",
-              "&:hover, &:focus": {
-                "border-color": "@primaryColor"
-              },
-              "background": "@inputColor"
-            },
-            "input::-webkit-input-placeholder": {
-              "color": "fade(@labelsColor, 50%)"
-            },
-            "input::-moz-placeholder": {
-              "color": "fade(@labelsColor, 50%)"
-            },
-            "H2": {
-              "color": "#ff0073"
-            },
-            "B": {
-              "color": "#ff0086"
-            },
-            ".mbr-section-subtitle B": {
-              "color": "#494949"
-            }
-          },
-          "_name": "contacts1",
-          "_customHTML": "<section class=\"contact1\" group=\"Contacts\" plugins=\"amp-main,amp-form,amp-mustache\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <input type=\"color\" title=\"Fields Color\" name=\"inputColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Form Text Color\" name=\"labelsColor\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#7ae6ff\" selected> \n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-2\"><b>VAGAS ABERTA RESTA 15 VAGAS!</b><br><b> PARA CURSO AVANÇADO</b></h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><b>Faturar De 3 a 10 Mil Por Mês Investindo 4 Horas Por Dia. Com Saboaria </b><br><b>Aulas Avançadas vou Pegar na Sua Mão e Ajudar</b></h3>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div mbr-form class=\"mbr-col-lg-10  mbr-col-md-12 \">\n                <form class=\"mbr-form mbr-justify-content-center\" action=\"wendel.santos505@gmail.com\" method=\"post\" name=\"Mobirise Form\" target=\"_top\" novalidate>\n                    <div submit-success>\n                      <template data-form-alert type=\"amp-mustache\">Subscription successful!</template>\n                    </div>\n                    <div submit-error>\n                      <template data-form-alert type=\"amp-mustache\">Subscription successful!</template>\n                    </div>\n                    <div class=\"fieldset\">\n                        <label data-for=\"form[data][0][1]\" hidden=\"hidden\">\n                            <input type=\"hidden\" name=\"form[data][0][0]\" value=\"Name\">\n                            <input type=\"text\" name=\"form[data][0][1]\" data-form-field=\"Name\" placeholder=\"Seu Nome\" required hidden=\"hidden\">\n                        </label>\n                        <label data-for=\"form[data][1][1]\" hidden=\"hidden\">\n                            <input type=\"hidden\" name=\"form[data][1][0]\" value=\"Last Name\">\n                            <input type=\"text\" name=\"form[data][1][1]\" data-form-field=\"Last Name\" required hidden=\"hidden\">\n                        </label>\n                        <label data-for=\"form[data][2][1]\" hidden=\"hidden\">\n                            <input type=\"hidden\" name=\"form[data][2][0]\" value=\"Email\">\n                            <input type=\"email\" name=\"form[data][2][1]\" data-form-field=\"Email\" placeholder=\"Seu Email\" required hidden=\"hidden\">\n                        </label>\n                    </div>\n                    <div class=\"mbr-section-btn align-left\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a type=\"submit\" class=\"btn btn-form btn-primary\" data-app-placeholder=\"Type Text\" href=\"http://bit.ly/2VuHGAM\" target=\"_blank\">CLIQUE PARA SER AVISADO</a></div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rmIR1zJVCK",
-          "_anchor": "contacts1-20",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
