@@ -1817,49 +1817,6 @@
           "_params": {}
         },
         {
-          "alias": "social-feed/amp-social-feed",
-          "_isSecondary": true,
-          "typeCompatible": "isAMP",
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)",
-              ".mbr-overlay": {
-                "background-color": "@overlayColor",
-                "opacity": "@overlayOpacity"
-              }
-            },
-            ".facebook-page-wrapper": {
-              "margin": "auto",
-              "max-width": "500px",
-              "@media (max-width: 499)": {
-                "width": "100%"
-              },
-              "& when (@showSubtitle)": {
-                "padding-top": "1rem"
-              }
-            },
-            ".mbr-section-subtitle DIV": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "facebook-page",
-          "_customHTML": "<section class=\"amp-facebook-page mbr-section\" group=\"Custom block\" plugins=\"amp-main, amp-facebook-page\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\n        <header>Facebook</header>\n        <input type=\"text\" title=\"'Page'\" name=\"facebookPage\" value>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../assets/background.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f6efe9\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"bg.type!='color' && overlay\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-center\">\n        <div class=\"title\">\n            <h3 class=\"mbr-fonts-style mbr-bold mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                AMP Facebook \"Page\"\n            </h3>\n            <h4 class=\"mbr-fonts-style mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">&lt;html lang=\"en\"&gt;\n<div>&lt;head&gt;\n</div><div>&lt;!-- Facebook Pixel Code --&gt;\n</div><div>&lt;script&gt;\n</div><div>&nbsp; !function(f,b,e,v,n,t,s)\n</div><div>&nbsp; {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n</div><div>&nbsp; n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n</div><div>&nbsp; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n</div><div>&nbsp; n.queue=[];t=b.createElement(e);t.async=!0;\n</div><div>&nbsp; t.src=v;s=b.getElementsByTagName(e)[0];\n</div><div>&nbsp; s.parentNode.insertBefore(t,s)}(window, document,'script',\n</div><div>&nbsp; 'https://connect.facebook.net/en_US/fbevents.js');\n</div><div>&nbsp; fbq('init', '213507039214045');\n</div><div>&nbsp; fbq('track', 'PageView');\n</div><div>&lt;/script&gt;\n</div><div>&lt;noscript&gt;&lt;img height=\"1\" width=\"1\" style=\"display:none\"\n</div><div>&nbsp; src=\"https://www.facebook.com/tr?id=213507039214045&amp;ev=PageView&amp;noscript=1\"\n</div><div>/&gt;&lt;/noscript&gt;\n</div><div>&lt;!-- End Facebook Pixel Code --&gt;</div><div>&lt;/head&gt;</div></h4>\n        </div>\n        <div class=\"facebook-page-wrapper\">\n            <amp-facebook-page width=\"500\" height=\"130\" layout=\"responsive\" data-href>\n            </amp-facebook-page>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "roEzCE0fkQ",
-          "_anchor": "facebook-page-1p",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
