@@ -13,7 +13,7 @@
         "warningColor": "#767676",
         "dangerColor": "#a0a0a0",
         "mainFont": "Roboto",
-        "display1Font": "Roboto",
+        "display1Font": "Oswald",
         "display1Size": 4.5,
         "display2Font": "Oswald",
         "display2Size": 2.2,
@@ -23,8 +23,8 @@
         "display7Size": 1.1,
         "display4Font": "Roboto",
         "display4Size": 0.9,
-        "isRoundedButtons": false,
-        "isScrollToTopButton": false,
+        "isRoundedButtons": true,
+        "isScrollToTopButton": true,
         "arrowColor": "#4ea2e3"
       },
       "additionalSetColors": [
