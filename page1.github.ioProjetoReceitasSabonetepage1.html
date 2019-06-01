@@ -30,7 +30,8 @@ body{font-family: Roboto;}blockquote{border-color: #ffa620;}.display-1{font-fami
   <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
   
   
-</head>
+  <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+  </head>
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div>
 
 <!-- Google Analytics -->
@@ -81,7 +82,7 @@ body{font-family: Roboto;}blockquote{border-color: #ffa620;}.display-1{font-fami
             
             <div class="mbr-col-md-12 mbr-col-sm-12 form-content mbr-col-lg-6">
                 <div class="form-wrap" data-form-type="formoid">
-               <form class="mbr-form mbr-justify-content-center" method="post" target="_top" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="BZcYaHmDZWHzTOPiixyGODfvghodCGFbYcMdskC060vyD/qjvF3XJttXOiywXEn8fnZosnCzQPO6cLR52HziBDzPpYUSmop50VXuZhx8AlCaYn6iRZqxthv9ZtwbbJls">
+               <form class="mbr-form mbr-justify-content-center" method="post" target="_top" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="jr0QBQarCRsuIeVCfje9w3KiDC1S1l5Vk9Vrh2bV8cHg5k5pYpI61NtWossx72gPK+C3s/zY0SQSM0PCQbPWKtx6mVi4z9eToDfjw1lhWnirZpRwguW/WbhXG/O8+J4w">
                     <div submit-success="">
                       <template data-form-alert="" type="amp-mustache">Parabens! Sua Menssagen Foi Enviada. Breve Estaremos Respondendo.
 
@@ -113,7 +114,7 @@ Em quanto Isso! Veja o Curso Avançado com Area de Membros na Pratica Passo a Pa
     </div>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/d">site maker</a></section><section class="footer1 cid-rmq508ibcS" id="footer1-p">
+<section class="engine"><a href="https://mobirise.info/l">free site templates</a></section><section class="footer1 cid-rmq508ibcS" id="footer1-p">
 
     
 
@@ -129,6 +130,6 @@ Em quanto Isso! Veja o Curso Avançado com Area de Membros na Pratica Passo a Pa
   
   
  
-  <input name="cookieData" type="hidden" data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.">
+  <amp-user-notification id="my-notification" style="background:rgba(234, 239, 241, 0.8); padding: 10px 5%; display:inline-block; text-align: center;" layout="nodisplay" class="cookieText">We use cookies to give you the best experience. Read our <a href="privacy.html">cookie policy</a>.<button on="tap:my-notification.dismiss" style="margin-left: 10px; cursor: pointer;">x</button>                                </amp-user-notification>
   <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)">                                         <a class="scroll-to-top-arrow"></a>                                     </button></body>
 </html>
