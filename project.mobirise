@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SITE RECEITAS SABOARIA-A",
-    "currentPage": "index.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -3279,7 +3279,7 @@
             "background-color": "@bgColor",
             ".mbr-text": {
               "padding": "2rem 0",
-              "color": "#494949"
+              "color": "#232323"
             },
             ".mbr-text B": {
               "color": "#f41c1c"
@@ -3302,7 +3302,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-2\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://app.monetizze.com.br/checkout/CQV65914?a=a&hideB=1&src=11%DEDesconto\" data-app-placeholder=\"Type Text\" target=\"_blank\">PAGUE NO CARTÃO COM 11% DE DESCONTO</a></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://app.monetizze.com.br/checkout/CQV65914?a=a&hideB=1&src=11%DEDesconto\" data-app-placeholder=\"Type Text\" target=\"_blank\">PAGUE NO CARTÃO COM 11% DE DESCONTO</a></div>\n    </div>\n</section>",
           "_cid": "rsCOc8Iitv",
           "_protectedParams": [],
           "_global": false,
@@ -3340,7 +3340,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text>AO COMPRAR COM CARTÃO DE CREDITO <b>SEU BOLETO SERÁ CANCELADO AUTOMATICAMENTE.</b></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>AO COMPRAR COM CARTÃO DE CREDITO <b>SEU BOLETO SERÁ CANCELADO AUTOMATICAMENTE.</b></div>\n    </div>\n</section>",
           "_cid": "rsCPkPB4eA",
           "_protectedParams": [],
           "_global": false,
