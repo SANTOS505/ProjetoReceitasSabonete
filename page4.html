@@ -23,14 +23,13 @@ body{font-family: Roboto;}blockquote{border-color: #ffa620;}.display-1{font-fami
 .engine{position: absolute;text-indent: -2400px;text-align: center;padding: 0;top: 0;left: -2400px;}[class*="-iconfont"]{display: inline-flex;}</style>
  
   <script async  src="https://cdn.ampproject.org/v0.js"></script>
-  <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+  <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   
   
-  <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
-  </head>
+</head>
 <body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div><amp-sidebar id="sidebar" class="cid-rmGhFbzWxa" layout="nodisplay" side="left">
         <div class="builder-sidebar" id="builder-sidebar">
             <button on="tap:sidebar.close" class="close-sidebar">
@@ -99,7 +98,7 @@ body{font-family: Roboto;}blockquote{border-color: #ffa620;}.display-1{font-fami
     </button>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/z">best html templates</a></section><section class="header2 cid-rmI06bxXOu" id="header2-1t">
+<section class="engine"><a href="https://mobirise.info/m">free web design templates</a></section><section class="header2 cid-rmI06bxXOu" id="header2-1t">
 
     
 
@@ -145,6 +144,5 @@ body{font-family: Roboto;}blockquote{border-color: #ffa620;}.display-1{font-fami
   
   
  
-  <amp-user-notification id="my-notification" style="background:rgba(234, 239, 241, 0.8); padding: 10px 5%; display:inline-block; text-align: center;" layout="nodisplay" class="cookieText">We use cookies to give you the best experience. Read our <a href="privacy.html">cookie policy</a>.<button on="tap:my-notification.dismiss" style="margin-left: 10px; cursor: pointer;">x</button>                                </amp-user-notification>
   <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)">                                         <a class="scroll-to-top-arrow"></a>                                     </button></body>
 </html>
