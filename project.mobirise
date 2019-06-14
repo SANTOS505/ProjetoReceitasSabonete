@@ -1241,7 +1241,8 @@
             "background-color": "@bgColor",
             ".mbr-text": {
               "padding": "2rem 0",
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#ffffff"
             },
             ".mbr-text B": {
               "color": "#ffffff"
