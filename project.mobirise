@@ -3159,7 +3159,7 @@
               "color": "#212529"
             },
             ".mbr-text, .mbr-section-btn": {
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "header2",
