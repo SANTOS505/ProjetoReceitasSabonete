@@ -1,12 +1,12 @@
 {
   "settings": {
     "name": "SITE RECEITAS SABOARIA-A",
-    "currentPage": "page5.html",
+    "currentPage": "page4.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
       "styling": {
-        "primaryColor": "#fcff09",
+        "primaryColor": "#17ff36",
         "secondaryColor": "#4addff",
         "successColor": "#0dcd7b",
         "infoColor": "#8282e7",
@@ -28,13 +28,13 @@
         "arrowColor": "#4ea2e3"
       },
       "additionalSetColors": [
+        "#212529",
         "#b8ef9b",
         "#0d4b04",
         "#17ff36",
         "#00bf05",
         "#ffac00",
-        "#fcff09",
-        "#f41c1c"
+        "#fcff09"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -3151,11 +3151,19 @@
               "max-width": "~'@{imageWidth}%'"
             },
             "H1": {
+              "color": "#00bf05",
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "center",
               "color": "#212529"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
             }
           },
           "_name": "header2",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"53\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">\n                    SOBRE CERTIFICADO</span></h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\">&nbsp;Ao Solicitar Informe (Nome Completo) a ser inserido no Certificado<br><br>Clique em (Solicitar Certificado) <br>Lembrando que o prazo recomendado de conclusão é de pelo menos 72 horas. <br>Caso haja nescessidade de recebimento antecipado o envio sera em até 48 horas após a Compra.<br></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i><b>Importante!</b></i>&nbsp;Após o recebimento do certificado não será possível realizar reembolso.<br><i>Ao solicitar certificado com antecipação você concorda com os </i><b>Termos acima descritos</b><i>.</i></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-success\" href=\"mailto:camila@receitassaboneteartesanal.com\" data-app-placeholder=\"Type Text\">SOLICITAR CERTIFICADO</a>\n                    <a class=\"btn btn-md btn-black-outline\" href=\"index.html\" data-app-placeholder=\"Type Text\">NÃO QUERO CERTIFICADO</a></div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/certificadoproibido3-1056x816.png\" alt=\"Mobirise\" width=\"388.2352941176471\" height=\"300\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/certificadoproibido3-1056x816.png\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Image Width\" name=\"imageWidth\" min=\"0\" max=\"100\" step=\"1\" value=\"53\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-lg-8\">\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    SOBRE CERTIFICADO</h1>\n                <h3 class=\"mbr-fonts-style align-center\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-7\"><b>IMPORTANTE!</b><br><br>1 - Solicite seu certificado somente após confirmação de Pagamento.<br><br><b>Compra por Boleto:</b> Envie comprovante de pagamento e solicitação&nbsp;do certificado para <br><br><i>(E-mail: camila@receitassaboneteartesanal.com)</i><br><br>2 - Nescessario informar ( Nome Completo no e-mail )<br><br>Lembrando que o prazo recomendado de conclusão é de pelo menos 72 horas. <br>Caso haja nescessidade de recebimento antecipado o envio sera em até 48 horas após a Compra.<br></h3>\n                <div class=\"mbr-text align-center\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i><b>Importante!</b></i>&nbsp;Após o recebimento do certificado não será possível realizar reembolso.<br><i>Ao solicitar certificado com antecipação você concorda com os </i><b>Termos acima descritos</b><i>.</i></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-primary\" href=\"mailto:camila@receitassaboneteartesanal.com\" data-app-placeholder=\"Type Text\">SOLICITAR CERTIFICADO!</a>\n                    <a class=\"btn btn-md btn-black\" href=\"index.html\" data-app-placeholder=\"Type Text\">NÃO QUERO CERTIFICADO</a></div>\n                <amp-img src=\"@PROJECT_PATH@/assets/images/certificadoproibido3-1056x816.png\" alt=\"Mobirise\" width=\"388.2352941176471\" height=\"300\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/certificadoproibido3-1056x816.png\" alt=\"Mobirise\" title>\n                </amp-img>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rmI06bxXOu",
           "_anchor": "header2-1t",
           "_protectedParams": [],
