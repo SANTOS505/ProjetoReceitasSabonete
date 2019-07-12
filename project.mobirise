@@ -51,7 +51,7 @@
         "url": "https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i"
       }
     ],
-    "uniqCompNum": 108,
+    "uniqCompNum": 110,
     "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -1571,6 +1571,44 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text><b>Por Que para Muitas Pessoas é Tão Difícil Ganhar Dinheiro com Saboaria?\n</b></div>\n    </div>\n</section>",
+          "_cid": "rvXODSdRMt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-31"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><div><b>1. Eu gostaria de fazer produtos de beleza caseiros, mas não tenho ideias de quais matérias são necessários. &nbsp;<br></b></div><div><b>2. Eu tenho pouco dinheiro para investir, eu gostaria de Iniciar um negocio em minha casa com pouco dinheiro.\n</b></div><div><b>3. Eu tenho um emprego porem gostaria de Fazer alguma coisa nas horas vagas para vender,\n</b></div><div><b>mas não tenho ideia do que fazer e tenho medo de não da certo.\n</b></div><div><b>4. Eu, já trabalho com saboaria, porem não encontro bons fornecedores de matéria prima.\n</b></div><div><b>5. Eu gostaria de aprender algo novo, rentável e econômico para começar.\n</b></div><div><b>6. Gostaria de aprender fazer receitas de sabonetes liquido sabonetes fitoterápicos, sais de banho.\n</b></div><br><div><b>Essa é a Oportunidade de começar no Ramo da Saboaria e Aromaterapia.&nbsp;</b></div><div><br></div></div>\n    </div>\n</section>",
+          "_cid": "rvXOuBcO2o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-30"
         },
         {
           "alias": false,
