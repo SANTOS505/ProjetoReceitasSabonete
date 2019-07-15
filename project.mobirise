@@ -28,13 +28,13 @@
         "arrowColor": "#4ea2e3"
       },
       "additionalSetColors": [
+        "#ff9f00",
         "#ffab20",
         "#f80e45",
         "#212529",
         "#b8ef9b",
         "#0d4b04",
-        "#17ff36",
-        "#00bf05"
+        "#17ff36"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -51,7 +51,7 @@
         "url": "https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i"
       }
     ],
-    "uniqCompNum": 118,
+    "uniqCompNum": 121,
     "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -243,7 +243,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffab20\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>NO MOMENTO DA COMPRA INFORME SEU<b>&nbsp;( E-MAIL CORRETAMENTE ) </b>É&nbsp;ATRAVÉS DELE QUE RECEBERÁ AS APOSTILAS</div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff9f00\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>NO MOMENTO DA COMPRA INFORME SEU<b>&nbsp;( E-MAIL CORRETAMENTE ) </b>É&nbsp;ATRAVÉS DELE QUE RECEBERÁ AS APOSTILAS</div>\n    </div>\n</section>",
           "_anchor": "content4-33",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -1237,11 +1237,11 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffab20\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text=\"\"><b>NO MOMENTO DA COMPRA INFORME SEU ( E-MAIL CORRETAMENTE ) ATRAVÉS DELE SERA ENVIADO!</b></div>\n    </div>\n</section>",
-          "_anchor": "content4-37",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff9f00\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>NO MOMENTO DA COMPRA INFORME SEU<b>&nbsp;( E-MAIL CORRETAMENTE ) </b>É&nbsp;ATRAVÉS DELE QUE RECEBERÁ AS APOSTILAS</div>\n    </div>\n</section>",
+          "_anchor": "content4-3a",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
-          "_cid": "rwk2hBnxWs",
+          "_cid": "rwk6KLA6mh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1578,11 +1578,11 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffab20\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text=\"\"><b>NO MOMENTO DA COMPRA INFORME SEU ( E-MAIL CORRETAMENTE ) ATRAVÉS DELE SERA ENVIADO!</b></div>\n    </div>\n</section>",
-          "_anchor": "content4-38",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff9f00\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>NO MOMENTO DA COMPRA INFORME SEU<b>&nbsp;( E-MAIL CORRETAMENTE ) </b>É&nbsp;ATRAVÉS DELE QUE RECEBERÁ AS APOSTILAS</div>\n    </div>\n</section>",
+          "_anchor": "content4-3b",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
-          "_cid": "rwk2j5hUay",
+          "_cid": "rwk6ZGSC7n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1796,11 +1796,11 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffab20\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text=\"\"><b>NO MOMENTO DA COMPRA INFORME SEU ( E-MAIL CORRETAMENTE ) ATRAVÉS DELE SERA ENVIADO!</b></div>\n    </div>\n</section>",
-          "_anchor": "content4-39",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff9f00\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text>NO MOMENTO DA COMPRA INFORME SEU<b>&nbsp;( E-MAIL CORRETAMENTE ) </b>É&nbsp;ATRAVÉS DELE QUE RECEBERÁ AS APOSTILAS</div>\n    </div>\n</section>",
+          "_anchor": "content4-3c",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
-          "_cid": "rwk2klme32",
+          "_cid": "rwk72M4foG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
