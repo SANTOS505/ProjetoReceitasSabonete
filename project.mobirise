@@ -59,9 +59,9 @@
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
-    "noImageResize": "",
+    "noImageResize": "true",
     "cookiesAlert": "",
-    "сanonical-url": "https://santos505.github.io/projetoreceitassabonete/",
+    "сanonical-url": "",
     "google-analytics": "<script type=\"text/javascript\" src=\"https://app.monetizze.com.br/1buyclick.php?u=737aa76644563dfed553c1bdc17a22fb\"></script>\r\n<body>",
     "sitemapSwitcher": "on"
   },
