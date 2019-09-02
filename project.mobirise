@@ -55,20 +55,14 @@
     "versionPublish": "4.10.5",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on",
-    "siteUrl": "http://receitassaboneteartesanal.com",
+    "robotsSwitcher": "",
+    "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "",
-    "gdpr": {
-      "colorText": "#a7a7a7",
-      "colorLink": "#149dcc",
-      "underlineLink": false,
-      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
-    },
     "сanonical-url": "https://santos505.github.io/projetoreceitassabonete/",
-    "google-analytics": "<!-- WhatsHelp.io widget -->\r\n<script type=\"text/javascript\">\r\n    (function () {\r\n        var options = {\r\n            whatsapp: \"+55 11 960442444\", // WhatsApp number\r\n            call_to_action: \"Ola! Posso Ajudar?\", // Call to action\r\n            position: \"right\", // Position may be 'right' or 'left'\r\n        };\r\n        var proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\r\n        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\r\n        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };\r\n        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\r\n    })();\r\n</script>\r\n<!-- /WhatsHelp.io widget -->\r\n<script type=\"text/javascript\" src=\"https://app.monetizze.com.br/1buyclick.php?u=737aa76644563dfed553c1bdc17a22fb\"></script>\r\n<body>",
+    "google-analytics": "<script type=\"text/javascript\" src=\"https://app.monetizze.com.br/1buyclick.php?u=737aa76644563dfed553c1bdc17a22fb\"></script>\r\n<body>",
     "sitemapSwitcher": "on"
   },
   "pages": {
