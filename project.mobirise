@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OFICIAL RECEITAS SABOARIA",
-    "currentPage": "page5.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -62,7 +62,7 @@
     "noImageResize": "true",
     "cookiesAlert": "",
     "сanonical-url": "",
-    "google-analytics": "<script type=\"text/javascript\" src=\"https://app.monetizze.com.br/1buyclick.php?u=737aa76644563dfed553c1bdc17a22fb\"></script>\r\n<body>",
+    "google-analytics": "<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type=\"text/javascript\" src=\"//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d10e795d9354055\"></script>",
     "sitemapSwitcher": "on"
   },
   "pages": {
