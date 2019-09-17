@@ -62,7 +62,8 @@
     "noImageResize": "true",
     "сanonical-url": "",
     "google-analytics": "",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
