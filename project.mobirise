@@ -61,7 +61,7 @@
     "favicon": "",
     "noImageResize": "true",
     "сanonical-url": "",
-    "google-analytics": "<!-- WhatsHelp.io widget -->\r\n<script type=\"text/javascript\">\r\n(function () {\r\nvar options = {\r\nwhatsapp: \"11960138169\", // WhatsApp number\r\ncall_to_action: \"Oi!Posso te Ajudar?\", // Call to action\r\nposition: \"left\", // Position may be 'right' or 'left'\r\n};\r\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\r\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\r\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\r\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\r\n})();\r\n</script>\r\n<!-- /WhatsHelp.io widget -->",
+    "google-analytics": "<!-- WhatsHelp.io widget -->\r\n<script type=\"text/javascript\">\r\n(function () {\r\nvar options = {\r\nwhatsapp: \"5511960138169\", // WhatsApp number\r\ncall_to_action: \"Oi!Posso te Ajudar?\", // Call to action\r\nposition: \"left\", // Position may be 'right' or 'left'\r\n};\r\nvar proto = document.location.protocol, host = \"whatshelp.io\", url = proto + \"//static.\" + host;\r\nvar s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';\r\ns.onload = function () { WhWidgetSendButton.init(host, proto, options); };\r\nvar x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);\r\n})();\r\n</script>\r\n<!-- /WhatsHelp.io widget -->",
     "sitemapSwitcher": "on",
     "cookiesAlert": ""
   },
