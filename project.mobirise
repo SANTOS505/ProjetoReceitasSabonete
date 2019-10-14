@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OFICIAL RECEITAS SABOARIA",
-    "currentPage": "page8.tumblr.com.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -28,13 +28,13 @@
         "arrowColor": "#4ea2e3"
       },
       "additionalSetColors": [
+        "#9613ab",
+        "#d700f9",
+        "#fcff00",
+        "#50f44c",
+        "#16be12",
         "#153b03",
-        "#e82562",
-        "#fd2d7b",
-        "#76fd88",
-        "#89ff99",
-        "#acfcb7",
-        "#d5ffdb"
+        "#e82562"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -101,10 +101,13 @@
             },
             "H2": {
               "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#fcff00"
             }
           },
           "_name": "content18",
-          "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20de%20sabonete%20artesanal-697x343.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2c760a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-5\">APRENDA FAZER SABONETES ARTESANAIS\n<div>&amp;PRODUTOS AROMÁTICOS</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\"><font color=\"#fcff29\"><i>APOSTILA DE RECEITAS SABOARIA ARTESANAL+ PASSOS</i></font></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20de%20sabonete%20artesanal-697x343.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e9a6b\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-5\">APRENDA FAZER SABONETES ARTESANAIS\n<div>&amp;PRODUTOS AROMÁTICOS</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\"><font color=\"#fcff29\">APOSTILA DE RECEITAS SABOARIA ARTESANAL+ PASSOS&nbsp;</font></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_anchor": "content18-2k",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -133,7 +136,7 @@
             }
           },
           "_name": "content16",
-          "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><div>Sabonetes Fitoterapicos, Óleos, Sais, Gel, Cremes Naturais e Diferentes, com o Melhor Custo Beneficio do Mercado.<br></div></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><div><span style=\"font-weight: normal;\">Sabonetes Fitoterapicos, Óleos, Sais, Gel, Cremes Naturais e Diferentes, com o Melhor Custo Beneficio do Mercado.</span><br></div></div>\n    </div>\n</section>",
           "_anchor": "content16-2t",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -1154,48 +1157,6 @@
         {
           "alias": false,
           "_styles": {
-            "background-color": "@bgColor",
-            "& when not (@fullWidth)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "width": "~\"@{videoSize}%\"",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "amp-img": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "margin": "0",
-              "padding": ".5rem 0",
-              "& when (@fullWidth)": {
-                "padding": ".5rem 15px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "image2",
-          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"48\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/compra-segura-vetor-2-1000x150.png\" layout=\"responsive\" width=\"533.3333333333334\" height=\"80\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"https://app.monetizze.com.br/checkout/PTG68552\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/compra-segura-vetor-2-1000x150.png\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    Create awesome and FAST websites!\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "image2-49",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rzCEozUT4l",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
@@ -1398,150 +1359,6 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".title when (@showTitle), (@showSubtitle)": {
-              "padding-bottom": "2rem"
-            },
-            "& when (@paddingCard)": {
-              ".image-wrap.pb": {
-                "& when (@imagesAmount > \"6\")": {
-                  "padding-bottom": "2rem"
-                },
-                "@media (min-width: 768px) and (max-width: 991px)": {
-                  "padding-bottom": "3rem"
-                }
-              },
-              ".image-wrap:not(.last-child)": {
-                "@media (max-width: 767px)": {
-                  "padding-bottom": "2rem"
-                }
-              },
-              "@media (min-width: 992px)": {
-                ".image-wrap.lg-px": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem",
-                  "&.pb": {
-                    "padding-bottom": "3rem"
-                  }
-                },
-                ".mbr-row when not (@imagesAmount = \"1\")": {
-                  "& when not (@imagesAmount = \"4\") and (@imagesAmount < \"7\")": {
-                    "margin-left": "-1.5rem",
-                    "margin-right": "-1.5rem"
-                  }
-                }
-              },
-              "& when not (@imagesAmount = \"1\")": {
-                "@media (min-width: 768px) and (max-width: 991px)": {
-                  ".image-wrap": {
-                    "padding-left": "1.5rem",
-                    "padding-right": "1.5rem"
-                  },
-                  ".mbr-row": {
-                    "margin-left": "-1.5rem",
-                    "margin-right": "-1.5rem"
-                  }
-                }
-              }
-            },
-            ".image-wrap when not (@paddingCard)": {
-              "padding": "0"
-            },
-            ".image-box": {
-              "position": "relative"
-            },
-            ".icon-wrap": {
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\"",
-              "position": "absolute",
-              "left": "50%",
-              "top": "50%",
-              "opacity": "0",
-              "transform": "translate(-50%, -50%)",
-              "pointer-events": "none",
-              "transition": "opacity .3s",
-              "z-index": "11",
-              ".amp-iconfont": {
-                "font-size": "~\"@{iconsSize}rem\"",
-                "width": "~\"@{iconsSize}rem\"",
-                "color": "contrast(@imgOverlayColor, darken(@imgOverlayColor, 50%), #ffffff, 60%)"
-              }
-            },
-            "amp-img:after": {
-              "position": "absolute",
-              "content": "\"\"",
-              "bottom": "0",
-              "left": "0",
-              "right": "0",
-              "transition": "all 0.3s",
-              "pointer-events": "none",
-              "background-color": "fade(@imgOverlayColor, @imgOverlayOpacity * 100%)",
-              "& when (@showCaption)": {
-                "height": "0"
-              },
-              "& when not (@showCaption)": {
-                "top": "0",
-                "opacity": "0"
-              }
-            },
-            ".img-caption when (@showCaption)": {
-              "position": "absolute",
-              "display": "flex",
-              "align-items": "flex-end",
-              "bottom": "0",
-              "left": "0",
-              "width": "100%",
-              "height": "auto",
-              "background-color": "fade(@imgOverlayColor, @imgOverlayOpacity * 100%)",
-              "transition": "all 0.1s 0.2s",
-              "z-index": "10",
-              ".caption-text": {
-                "margin": "0",
-                "padding": "0.5rem",
-                "width": "100%"
-              }
-            },
-            "@media (min-width: 768px)": {
-              ".image-box:hover": {
-                ".img-caption when (@showCaption)": {
-                  "height": "100%",
-                  "background-color": "transparent",
-                  "transition": "all 0s"
-                },
-                "amp-img": {
-                  "cursor": "pointer",
-                  "&:after when (@showCaption)": {
-                    "height": "100%"
-                  },
-                  "&:after when not (@showCaption)": {
-                    "opacity": "1"
-                  }
-                },
-                ".icon-wrap": {
-                  "opacity": "1"
-                }
-              }
-            }
-          },
-          "_name": "gallery2",
-          "_customHTML": "<section class=\"gallery1\" group=\"Gallery &amp; Slider\" plugins=\"amp-main,amp-image-lightbox\">\n    <mbr-parameters>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n        <select title=\"Images\" name=\"imagesAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n        </select>\n        \n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"3\" step=\"0.1\" value=\"2\">\n        \n        <input type=\"checkbox\" title=\"Padding Card\" name=\"paddingCard\" checked=\"\">\n        <input type=\"color\" title=\"Image Overlay Color\" name=\"imgOverlayColor\" value=\"#4ea2e3\">\n        <input type=\"range\" inline=\"\" title=\"Image Overlay Opacity\" name=\"imgOverlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\">\n\n        <input type=\"checkbox\" title=\"Show Img Caption\" name=\"showCaption\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20sabonete%20artesanal-400x278.jpg\">\n        </fieldset>\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"title align-center\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-light mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Gallery With Lightbox</h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your gallery subtitle here</h4>\n        </div>\n       <div class=\"mbr-row mbr-justify-content-center\">\n           <div class=\"image-wrap mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7),'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'mbr-col-lg-6 lg-px': imagesAmount == 2, 'mbr-col-lg-12 mbr-col-md-12': imagesAmount == 1, 'mbr-col-md-6': imagesAmount > 1, 'pb': imagesAmount > 4, 'last-child': imagesAmount == 1}\">\n               <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/foto2-353x626.jpg\" layout=\"responsive\" height=\"599\" width=\"337.7747603833866\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto2-353x626.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n               </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'mbr-col-lg-6 lg-px': imagesAmount < 3, 'pb': imagesAmount > 4, 'last-child': imagesAmount == 2}\" mbr-if=\"imagesAmount > 1\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/foto1-348x627.jpg\" layout=\"responsive\" height=\"609\" width=\"338.00956937799043\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto1-348x627.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'pb': imagesAmount > 4, 'last-child': imagesAmount == 3}\" mbr-if=\"imagesAmount > 2\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/foto3-354x628.jpg\" layout=\"responsive\" height=\"600\" width=\"338.21656050955414\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto3-354x628.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': imagesAmount == 3 || (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount == 4 || imagesAmount > 6, 'pb': imagesAmount > 6, 'last-child': imagesAmount == 4}\" mbr-if=\"imagesAmount > 3\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/foto4-354x626.jpg\" layout=\"responsive\" height=\"598\" width=\"338.1661341853035\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto4-354x626.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount > 6, 'last-child': imagesAmount == 5}\" mbr-if=\"imagesAmount > 4\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/foto5-340x627.jpg\" layout=\"responsive\" height=\"623\" width=\"337.8309409888357\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto5-340x627.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 lg-px': (imagesAmount > 4 &amp;&amp; imagesAmount < 7), 'mbr-col-lg-3': imagesAmount > 6, 'last-child': imagesAmount == 6}\" mbr-if=\"imagesAmount > 5\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"@PROJECT_PATH@/assets/images/foto7-352x621.jpg\" layout=\"responsive\" height=\"596\" width=\"337.82930756843797\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto7-352x621.jpg\" alt=\"Mobirise\" title=\"\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3\" mbr-class=\"{'last-child': imagesAmount == 7}\" mbr-if=\"imagesAmount > 6\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"../_images/img/07.jpg\" layout=\"responsive\" height=\"170\" width=\"255\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"../_images/img/07.jpg\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"image-wrap mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-3 last-child\" mbr-if=\"imagesAmount > 7\">\n                <div class=\"image-box\">\n                    <amp-img class=\"mobirise-loader\" src=\"../_images/background6.jpg\" layout=\"responsive\" height=\"170\" width=\"255\" alt=\"Mobirise\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <div placeholder=\"\" class=\"placeholder\"></div>\n                        <img class=\"mbr-temp\" src=\"../_images/background6.jpg\" alt=\"Mobirise\">\n                    </amp-img>\n                    <div class=\"icon-wrap\" on=\"tap:lightbox1\" role=\"button\" tabindex=\"0\">\n                        <span mbr-icon=\"\" class=\"amp-iconfont mbri-search\"></span>\n                    </div>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"caption-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".caption-text\">Type caption here</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <amp-image-lightbox id=\"lightbox1\" layout=\"nodisplay\">\n        <a class=\"control\" data-close-button-aria-label=\"Close\">\n            <span class=\"close\"></span>\n        </a>\n    </amp-image-lightbox>\n</section>",
-          "_cid": "rAjNWrrrVg",
-          "_anchor": "gallery2-4i",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
             ".mbr-title": {
               "padding-bottom": "1rem",
               "color": "#0e0e87"
@@ -1585,7 +1402,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\"><div>Parcele em até 3x de R$ 10,25\n</div><div>&nbsp;OU R$ 29,00 à Vista</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\"><div><span style=\"font-weight: normal;\">SÓ HOJE!\n</span></div><div><span style=\"font-weight: normal;\">POR APENAS\n</span></div><div>R$ 29,00</div><div>&nbsp; <span style=\"font-weight: normal;\">SEM MENSALIDAS!</span></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_cid": "rnxP41zKmT",
           "_anchor": "content1-1n",
           "_protectedParams": [],
@@ -1832,6 +1649,39 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            },
+            ".mbr-title SPAN": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e82562\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">APROVEITE!</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-4q",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rAXeYt7Qaz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
             "background-color": "@bgColor",
             "& when not (@fullWidth)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -1867,39 +1717,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rCrwXAy2oG",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-title": {
-              "padding-bottom": "1rem",
-              "color": "#ffffff"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-title SPAN": {
-              "color": "#000000"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#4ea2e3\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">APROVEITE!</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-4q",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rAXeYt7Qaz",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2068,7 +1885,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#e82562\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text><b>SÓMENTE HOJE! e GANHE 6</b>&nbsp;<b>BÔNUS</b>&nbsp;<br>PAGUE COM CARTÃO DE CREDITO!<br>E RECEBA IMEDIATAMENTE!</div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#9613ab\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-text\" mbr-text><b>COMPRANDO AINDA HOJE! </b><br><b>VOCÊ GANHA + 6</b>&nbsp;<b>BÔNUS</b><br></div>\n    </div>\n</section>",
           "_anchor": "content4-4z",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -2224,7 +2041,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"53\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/compra-segura-monetize.png\" layout=\"responsive\" width=\"588\" height=\"120\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=COMPRAPRIMEIRO\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/compra-segura-monetize.png\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"53\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#50f44c\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/compra-segura-monetize.png\" layout=\"responsive\" width=\"588\" height=\"120\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=COMPRAPRIMEIRO\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/compra-segura-monetize.png\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "image2-51",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -2257,7 +2074,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-q",
           "_protectedParams": [],
@@ -2452,7 +2269,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline name=\"logoHeight\" min=\"35\" max=\"120\" value=\"77\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline name=\"logoWidth\" min=\"35\" max=\"120\" value=\"43\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\" selected>Left</option>\n            <option value=\"right\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/cpia-de-programas-afiliado-90x90.png\" layout=\"responsive\" width=\"46\" height=\"46\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/cpia-de-programas-afiliado-90x90.png\" alt=\"Mobirise\" title></a>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\">APOSTILA DO SABONETE ARTESANAL</span></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">INICIO</a>\n              <a class=\"text-primary\" href=\"page1.github.ioProjetoReceitasSabonetepage1.html\" data-app-placeholder=\"Type Text\">CONTATO</a>\n              <a class=\"text-primary\" href=\"http://bit.ly/topsite-aulagratis-pgcapitura\" data-app-placeholder=\"Type Text\" target=\"_blank\">AULA GRÁTIS</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">GERAR CERTIFICADO</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"77\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"43\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\" selected=\"\">Left</option>\n            <option value=\"right\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/cpia-de-programas-afiliado-90x90.png\" layout=\"responsive\" width=\"43\" height=\"43\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/cpia-de-programas-afiliado-90x90.png\" alt=\"Mobirise\" title=\"\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\">APOSTILA DO SABONETE ARTESANAL</span></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">INICIO</a>\n              <a class=\"text-primary\" href=\"page1.github.ioProjetoReceitasSabonetepage1.html\" data-app-placeholder=\"Type Text\">CONTATO</a>\n              <a class=\"text-primary\" href=\"http://bit.ly/topsite-aulagratis-pgcapitura\" data-app-placeholder=\"Type Text\" target=\"_blank\">AULA GRÁTIS</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">GERAR CERTIFICADO</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
           "_cid": "rmGhFbzWxa",
           "_anchor": "menu1-16",
           "_protectedParams": [],
@@ -2583,7 +2400,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-p",
           "_protectedParams": [],
@@ -2951,7 +2768,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-17",
           "_protectedParams": [],
@@ -3462,7 +3279,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-17",
           "_protectedParams": [],
@@ -3810,7 +3627,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-1r",
           "_protectedParams": [],
@@ -4316,7 +4133,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-1v",
           "_protectedParams": [],
@@ -4758,7 +4575,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-17",
           "_protectedParams": [],
@@ -4798,7 +4615,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-1p",
           "_protectedParams": [],
@@ -5353,11 +5170,11 @@
           "_name": "features11",
           "_customHTML": "<section class=\"features11\" group=\"Features\" plugins=\"amp-main, amp-youtube\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\">\n        <input type=\"text\" title=\"Youtube Video URL\" name=\"videoUrl\" value=\"https://www.youtube.com/watch?v=5cxT4hiOv_M&feature=youtu.be\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"video-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-youtube width=\"16\" height=\"9\" layout=\"responsive\" data-videoid=\"lBTCB7yLs8Y\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </amp-youtube>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Sabonete arômatico</h3>\n                <p class=\"mbr-fonts-style mbr-text align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                   Como fazer um sabonete aromatico</p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">READ MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rDLRWEx19U",
+          "_anchor": "features11-62",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features11-62"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5663,7 +5480,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-1r",
           "_protectedParams": [],
@@ -6406,7 +6223,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-17",
           "_protectedParams": [],
@@ -7202,7 +7019,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-31",
           "_protectedParams": [],
@@ -7822,7 +7639,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rCnkJy6Eck",
           "_anchor": "footer1-5g",
           "_protectedParams": [],
@@ -8247,7 +8064,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-5k",
           "_protectedParams": [],
@@ -8286,7 +8103,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#3aba00\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a>&nbsp;&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#50f44c\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Apostila Receitas Sabonete Artesanal - <a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
           "_anchor": "footer1-5x",
           "_protectedParams": [],
