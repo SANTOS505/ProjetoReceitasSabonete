@@ -443,11 +443,11 @@
             "background-color": "@bgColor",
             ".mbr-text": {
               "padding": "2rem 0",
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#197bc6\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text>Oferta válida enquanto houver vagas\n<div>Garanta sua vaga enquanto o botão está disponível&nbsp;</div></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text>Oferta válida enquanto houver vagas\n<div>Garanta sua vaga enquanto o botão está disponível&nbsp;</div></div>\n    </div>\n</section>",
           "_anchor": "content4-9t",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -490,7 +490,7 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"55\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/mhbh2yo1e52n.gif\" layout=\"responsive\" width=\"611.1702127659574\" height=\"383\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"index.html#content4-9u\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mhbh2yo1e52n.gif\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Tenha acesso a Diversas Receitas de Sabonetes e Cosmeticos Artesanais</b></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"3\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"55\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/mhbh2yo1e52n.gif\" layout=\"responsive\" width=\"611.1702127659574\" height=\"383\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/jtero?src=BOTAO1\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mhbh2yo1e52n.gif\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Tenha acesso a Diversas Receitas de Sabonetes e Cosmeticos Artesanais</b></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "image2-9s",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
@@ -794,85 +794,6 @@
           "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/foto-certificado-sabonetes-artesanais.jpg\" layout=\"responsive\" width=\"523.4950911640954\" height=\"374\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/foto-certificado-sabonetes-artesanais.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">RECEBA TAMBEM UM LINDO CERTIFICADO DIGITAL!<br></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Voce tem direito a um Certificado Ao completar 7 dias de Conclusão da Apostila de Receitas Sabonetes Artesanais.<br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-success\" href=\"https://santos505.github.io/ProjetoReceitasSabonete/page4.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">SOLICITAR CERTIFICADO</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rmvYZtz1Kt",
           "_anchor": "features10-u",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
-              "padding": "2rem 0",
-              "color": "#ffffff"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#197bc6\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text>Essa OFERTA irá EXPIRAR em breve e o curso irá aumentar em R$197.00</div>\n    </div>\n</section>",
-          "_anchor": "content4-9u",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rLMz4ouAt8",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-title": {
-              "padding-bottom": "1rem",
-              "color": "#232323"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-title\"><span style=\"font-weight: normal;\">Há alguns dias nós fizemos a oferta de &nbsp;um curso de R$397 e talvez, você tenha sido uma das pessoas que ficaram de fora por questões financeiras.&nbsp;\n</span><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Então, eu fiquei me perguntando. Como eu posso ajudar essas pessoas a ganharem dinheiro?&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">A única coisa que ficava na minha cabeça era: Eles poderiam ganhar dinheiro vendendo Sabonetes. Com esse dinheiro eles podem continuar investindo.&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Mas eu tinha outro problema...&nbsp;\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">O único treinamento que eu ensino o processo secreto para Fazer Sabonetes e produtos Aromaticos, também exige um alto investimento....R$197,00</span></div><br><div><span style=\"font-weight: normal;\"> \n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Foi quando veio a ideia de liberar um </span>DESCONTO <span style=\"font-weight: normal;\">promocional de R$168.00 De R$197 por apenas R$29.</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Honestamente, <i>R$197 na minha opinião, continua sendo uma quantia considerável.</i></span></div><br><div><span style=\"font-weight: normal;\"> </span></div><div><span style=\"font-weight: normal;\">Mas, muito mais acessível.&nbsp;\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Principalmente quando você parcela em </span>3X de R$10,25<span style=\"font-weight: normal;\">.</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">O que dá exatos </span>R$0,34 por dia.<span style=\"font-weight: normal;\">&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Imaginando que em 30 dias você conseguirá Fazer o seu primeiro Sabonete de R$7. </span></div><br><div><span style=\"font-weight: normal;\">Quando você começar a vender 1 por dia (Que pode acontecer relativamente rápido) a conta está paga.&nbsp;\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Agora imagine você Fazendo 5, 10 Sabonetes? (Que é exatamente o que eu estou fazendo nesse momento)&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Você terá a capacidade de literalmente transform</span><span style=\"font-weight: normal;\">ar</span></div><div><span style=\"font-weight: normal;\">&nbsp;</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Você já imaginou alguma vez na sua vida, ganhar dinheiro produzindo sabonetes? A sensação é incrível.&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Principalmente quando você começar a receber elogios do tipo: Eu adorei seus produtos vou querer mais. </span></div><br><div><span style=\"font-weight: normal;\">&nbsp;</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div>Para ter acesso ao nossa APOSTILA completa para Criar e Vender Sabonetes e produtos aromaticos, você irá investir hoje APENAS 3 parcelas de R$10,25.&nbsp;</div><br><div>\n</div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Vale o investimento?</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Bem, se desenvolver a habilidade de criar uma nova renda é algo importante para você. Acredito que sim.&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Esses R$0,34 por dia podem gerar um retorno extraordinário para o resto da sua vida.&nbsp;</span></div><div><br></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-8r",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rJVDrDsMxI",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-title": {
-              "padding-bottom": "1rem"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            }
-          },
-          "_name": "content19",
-          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#336a95\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\"><span style=\"font-weight: normal;\">Mas você precisa agir AGORA enquanto o link ainda está disponível. \n</span><div><span style=\"font-weight: normal;\">Não espere mais nenhum minuto e garanta sua vaga com desconto agora.</span></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\"><i>Oferta válida enquanto houver vagas\n</i><div><i>Garanta sua vaga enquanto o botão está disponível&nbsp;</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"http://mon.net.br/jtero?src=BOTAO1\" data-app-placeholder=\"Type Text\" target=\"_blank\">Compre agora por apenas 3 parcelas de R$ 10,25</a></div>\n    </div>\n</section>",
-          "_cid": "rLLk9ESG1q",
-          "_anchor": "content19-9q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1954,6 +1875,85 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rKmV7Oetv4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#197bc6\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" mbr-text>Essa OFERTA irá EXPIRAR em breve e o curso irá aumentar em R$197.00</div>\n    </div>\n</section>",
+          "_anchor": "content4-9u",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rLMz4ouAt8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem",
+              "color": "#232323"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-title\"><span style=\"font-weight: normal;\">Há alguns dias nós fizemos a oferta de &nbsp;um curso de R$397 e talvez, você tenha sido uma das pessoas que ficaram de fora por questões financeiras.&nbsp;\n</span><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Então, eu fiquei me perguntando. Como eu posso ajudar essas pessoas a ganharem dinheiro?&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">A única coisa que ficava na minha cabeça era: Eles poderiam ganhar dinheiro vendendo Sabonetes. Com esse dinheiro eles podem continuar investindo.&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Mas eu tinha outro problema...&nbsp;\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">O único treinamento que eu ensino o processo secreto para Fazer Sabonetes e produtos Aromaticos, também exige um alto investimento....R$197,00</span></div><br><div><span style=\"font-weight: normal;\"> \n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Foi quando veio a ideia de liberar um </span>DESCONTO <span style=\"font-weight: normal;\">promocional de R$168.00 De R$197 por apenas R$29.</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Honestamente, <i>R$197 na minha opinião, continua sendo uma quantia considerável.</i></span></div><br><div><span style=\"font-weight: normal;\"> </span></div><div><span style=\"font-weight: normal;\">Mas, muito mais acessível.&nbsp;\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Principalmente quando você parcela em </span>3X de R$10,25<span style=\"font-weight: normal;\">.</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">O que dá exatos </span>R$0,34 por dia.<span style=\"font-weight: normal;\">&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Imaginando que em 30 dias você conseguirá Fazer o seu primeiro Sabonete de R$7. </span></div><br><div><span style=\"font-weight: normal;\">Quando você começar a vender 1 por dia (Que pode acontecer relativamente rápido) a conta está paga.&nbsp;\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Agora imagine você Fazendo 5, 10 Sabonetes? (Que é exatamente o que eu estou fazendo nesse momento)&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Você terá a capacidade de literalmente transform</span><span style=\"font-weight: normal;\">ar</span></div><div><span style=\"font-weight: normal;\">&nbsp;</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Você já imaginou alguma vez na sua vida, ganhar dinheiro produzindo sabonetes? A sensação é incrível.&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Principalmente quando você começar a receber elogios do tipo: Eu adorei seus produtos vou querer mais. </span></div><br><div><span style=\"font-weight: normal;\">&nbsp;</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div>Para ter acesso ao nossa APOSTILA completa para Criar e Vender Sabonetes e produtos aromaticos, você irá investir hoje APENAS 3 parcelas de R$10,25.&nbsp;</div><br><div>\n</div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Vale o investimento?</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Bem, se desenvolver a habilidade de criar uma nova renda é algo importante para você. Acredito que sim.&nbsp;</span></div><br><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Esses R$0,34 por dia podem gerar um retorno extraordinário para o resto da sua vida.&nbsp;</span></div><div><br></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-8r",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rJVDrDsMxI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#336a95\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\"><span style=\"font-weight: normal;\">Mas você precisa agir AGORA enquanto o link ainda está disponível. \n</span><div><span style=\"font-weight: normal;\">Não espere mais nenhum minuto e garanta sua vaga com desconto agora.</span></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\"><i>Oferta válida enquanto houver vagas\n</i><div><i>Garanta sua vaga enquanto o botão está disponível&nbsp;</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"http://mon.net.br/jtero?src=BOTAO1\" data-app-placeholder=\"Type Text\" target=\"_blank\">Compre agora por apenas 3 parcelas de R$ 10,25</a></div>\n    </div>\n</section>",
+          "_cid": "rLLk9ESG1q",
+          "_anchor": "content19-9q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
