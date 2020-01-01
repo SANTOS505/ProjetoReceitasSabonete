@@ -71,7 +71,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 499,
+    "uniqCompNum": 502,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -84,7 +84,7 @@
     "google-analytics": "<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '501013820621972');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=501013820621972&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n<script type=\"text/javascript\" src=\"https://app.monetizze.com.br/1buyclick.php?u=737aa76644563dfed553c1bdc17a22fb\"></script>\n\n",
     "sitemapSwitcher": false,
     "cookiesAlert": false,
-    "canonical-url": false,
+    "canonical-url": "",
     "": "on",
     "gdpr": false
   },
@@ -97,7 +97,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/sabonetes%20aretesanais-1440x874.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg"
       },
       "components": [
         {
@@ -352,6 +352,67 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
+            ".mbr-title": {
+              "padding-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            },
+            ".mbr-title SPAN": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff8f03\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\">VOCÊ JÁ IMAGINOU TER UM NEGÓCIO ONDE NÃO TEM CRISE?</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rrOofNaozr",
+          "_anchor": "content1-1x",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0",
+              "text-align": "center",
+              "color": "#494949"
+            },
+            ".mbr-text DIV": {
+              "text-align": "center",
+              "color": "#232323"
+            },
+            ".mbr-text I": {
+              "color": "#000000"
+            }
+          },
+          "_name": "content16",
+          "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text><div>Sabonetes Artesanais <span style=\"font-weight: normal;\">são produtos exclusivos hoje em dia quem não gosta de algo novo e exclusivo diferente e natural?</span><br></div><div><br><div><span style=\"font-weight: normal;\"> \n</span></div><div><span style=\"font-weight: normal;\">A produção de</span> sabonetes, óleos, shampoo, creme, mascara dentre outros produtos naturais<span style=\"font-weight: normal;\"> atrai atenção até mesmo daqueles que não são adeptos de terapias, mas que procuram harmonizar seu corpo com o meio ambiente inclusive no processo de higienização.\n</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\">O melhor de tudo é que qualquer pessoa pode fazer os mesmos produtos que estão na </span>Apostila Receitas.\n</div><div><span style=\"font-weight: normal;\">Este tipo de produto é ótimo porque é utilizado diariamente pelas pessoas. \n</span></div><div><span style=\"font-weight: normal;\">Sendo assim você cria um produto seu totalmente diferente.</span></div><div><span style=\"font-weight: normal;\"><br></span></div><div><span style=\"font-weight: normal;\"> \n</span></div><div>\n</div><div><span style=\"font-weight: normal;\">Você poderá vender para </span>amigos ou familiares, dar de presente ou até mesmo fazer por hobby<span style=\"font-weight: normal;\"> aliviando o estresse do </span>dia a dia.<span style=\"font-weight: normal;\">\n</span></div><div><span style=\"font-weight: normal;\">Pensar de </span>forma empreendedora<span style=\"font-weight: normal;\"> e sair na frente nesse </span>mercado<span style=\"font-weight: normal;\"> que está cada vez mais em </span>alta<span style=\"font-weight: normal;\"> pode lhe permitir também um reconhecimento profissional pela produção de tais produtos.</span></div><div><span style=\"font-weight: normal;\">de forma Simples\n \ne objetiva, fazendo sabonetes Artesanais.</span></div></div></div>\n    </div>\n</section>",
+          "_anchor": "content16-dw",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rMhNqgyypH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
             ".title when (@showTitle), (@showSubtitle)": {
               "padding-bottom": "2rem"
             },
@@ -510,48 +571,6 @@
               "padding": ".5rem 0",
               "& when (@fullWidth)": {
                 "padding": ".5rem 15px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "image2",
-          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"79\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/promo-1.gif\" layout=\"responsive\" width=\"733.3333333333334\" height=\"242\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"https://santos505.github.io/CONTADORBOTAOSABONETE/\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/promo-1.gif\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><b>\n                    Sua Apostila será liberada de Imediato Após o Pagamento\n                </b></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "image2-du",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rMhp5lpNHt",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background-color": "@bgColor",
-            "& when not (@fullWidth)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "width": "~\"@{videoSize}%\"",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "amp-img": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "margin": "0",
-              "padding": ".5rem 0",
-              "& when (@fullWidth)": {
-                "padding": ".5rem 15px"
               },
               "color": "#232323"
             },
@@ -617,11 +636,99 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-title\">Parcele em até&nbsp;3x de R$ 10,25&nbsp;<br><br>&nbsp;OU R$ 29,00 à Vista</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-title\"><span style=\"font-weight: normal;\">Parcele em até</span>&nbsp;3x de R$ 10,25&nbsp;<br><br>&nbsp;<span style=\"font-weight: normal;\">OU</span> R$ 29,00 <span style=\"font-weight: normal;\">à Vista</span></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-ds",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMhdt0nvJp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              },
+              "color": "#ffffff"
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-text B": {
+              "color": "#ff2f2f"
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"44\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#fc9904\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg\" layout=\"responsive\" width=\"777.6659038901602\" height=\"472\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=querogarantirminha\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><br>APOSTILA COMPLETA COM MELHORES RECEITAS \n<br>PASSO A PASSO E TÉCNICAS EXCLUSIVAS PARA VOCÊ COMEÇAR MESMO QUE NÃO TENHA NENHUMA EXPERIÊNCIA.&nbsp;</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image2-dx",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rMhNPRFJIr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"79\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/promo-1.gif\" layout=\"responsive\" width=\"875.7575757575758\" height=\"289\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"https://santos505.github.io/CONTADORBOTAOSABONETE/\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/promo-1.gif\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><b>\n                    Sua Apostila será liberada de Imediato Após o Pagamento\n                </b></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image2-du",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rMhp5lpNHt",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -664,65 +771,6 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rLTtWFcT23",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-title": {
-              "padding-bottom": "1rem",
-              "color": "#ffffff"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-title SPAN": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff8f03\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\">VOCÊ JÁ IMAGINOU TER UM NEGÓCIO ONDE NÃO TEM CRISE?</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
-          "_cid": "rrOofNaozr",
-          "_anchor": "content1-1x",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
-              "padding": "2rem 0",
-              "text-align": "center",
-              "color": "#04854e"
-            },
-            ".mbr-text DIV": {
-              "text-align": "center",
-              "color": "#232323"
-            },
-            ".mbr-text I": {
-              "color": "#000000"
-            }
-          },
-          "_name": "content16",
-          "_customHTML": "<section class=\"content16 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-white mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-text><div><span style=\"font-weight: normal;\">A produção de sabonetes, óleos, shampoo, creme, mascara dentre outros produtos naturais atrai atenção até mesmo daqueles que não são adeptos de terapias, mas que procuram harmonizar seu corpo com o meio ambiente inclusive no processo de higienização.\n</span></div><div><span style=\"font-weight: normal;\">\n</span><span style=\"font-weight: normal;\">O melhor de tudo é que qualquer pessoa pode fazer os mesmos produtos que estão em nossa Apostila.&nbsp;</span></div><div><span style=\"font-weight: normal;\">Você poderá vender para amigos ou familiares, dar de presente ou até mesmo fazer por hobby aliviando o estresse do dia a dia.\n</span></div><div><span style=\"font-weight: normal;\">Pensar de forma empreendedora e sair na frente nesse mercado que está cada vez mais em alta pode lhe permitir também um reconhecimento profissional pela produção desses produtos.\n</span></div><div><span style=\"font-weight: normal;\">Pessoas estão tendo ótimo retorno financeiro fazendo sabonetes Artesanais.</span></div></div>\n    </div>\n</section>",
-          "_cid": "rmn0xDguw5",
-          "_anchor": "content16-7",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10369,11 +10417,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline name=\"logoHeight\" min=\"35\" max=\"120\" value=\"65\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline name=\"logoWidth\" min=\"35\" max=\"120\" value=\"78\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected>Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ff8f03\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ff8f03\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo150.png\" layout=\"responsive\" width=\"78\" height=\"78\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo150.png\" alt=\"Mobirise\" title></a>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\">APOSTILA OFICIAL DE RECEITAS SABONETES ARTESANAIS + PASSOS</span></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">INICIO</a>\n              <a class=\"text-primary\" href=\"page1.github.ioProjetoReceitasSabonetepage1.html\" data-app-placeholder=\"Type Text\">CONTATO</a>\n              <a class=\"text-primary\" href=\"http://bit.ly/topsite-aulagratis-pgcapitura\" data-app-placeholder=\"Type Text\" target=\"_blank\">AULA GRÁTIS</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">GERAR CERTIFICADO</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
           "_cid": "rmGhFbzWxa",
+          "_anchor": "menu1-bj",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-bj"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12139,11 +12187,11 @@
           "_name": "footer1",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#04854e\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019<b>&nbsp;<a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a></b><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
+          "_anchor": "footer1-bk",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-bk"
+          "_params": {}
         }
       ]
     },
@@ -12342,11 +12390,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Height\" inline name=\"logoHeight\" min=\"35\" max=\"120\" value=\"65\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline name=\"logoWidth\" min=\"35\" max=\"120\" value=\"78\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected>Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo150.png\" layout=\"responsive\" width=\"78\" height=\"78\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo150.png\" alt=\"Mobirise\" title></a>\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\">APOSTILA OFICIAL DE RECEITAS SABONETES ARTESANAIS + PASSOS</span></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">INICIO</a>\n              <a class=\"text-primary\" href=\"page1.github.ioProjetoReceitasSabonetepage1.html\" data-app-placeholder=\"Type Text\">CONTATO</a>\n              <a class=\"text-primary\" href=\"http://bit.ly/topsite-aulagratis-pgcapitura\" data-app-placeholder=\"Type Text\" target=\"_blank\">AULA GRÁTIS</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">GERAR CERTIFICADO</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
           "_cid": "rMglD34Kpi",
+          "_anchor": "menu1-cn",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-cn"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12381,11 +12429,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglD5oc5D",
+          "_anchor": "header4-co",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header4-co"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12405,11 +12453,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglD6841e",
+          "_anchor": "content4-cp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-cp"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12447,11 +12495,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglD6KpMB",
+          "_anchor": "image2-cq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-cq"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12471,11 +12519,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglD8hFxc",
+          "_anchor": "content4-cr",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-cr"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12617,11 +12665,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglD8QXyI",
+          "_anchor": "gallery2-cs",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "gallery2-cs"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12646,11 +12694,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDgjDKH",
+          "_anchor": "content1-ct",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-ct"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12678,11 +12726,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDh6Sk1",
+          "_anchor": "content1-cu",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-cu"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12762,11 +12810,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDjHTUx",
+          "_anchor": "image2-cw",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-cw"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12817,11 +12865,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDlaLcj",
+          "_anchor": "features10-cx",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features10-cx"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12846,11 +12894,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDmF4xu",
+          "_anchor": "content16-cy",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content16-cy"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12940,11 +12988,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDngcgd",
+          "_anchor": "testimonials1-cz",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "testimonials1-cz"
+          "_params": {}
         },
         {
           "alias": false,
@@ -12985,11 +13033,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDoMiIj",
+          "_anchor": "image2-d0",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-d0"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13027,11 +13075,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDqMLsG",
+          "_anchor": "image2-d1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-d1"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13110,11 +13158,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDsl6fa",
+          "_anchor": "features2-d2",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features2-d2"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13165,11 +13213,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDx67OE",
+          "_anchor": "features10-d3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features10-d3"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13210,11 +13258,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDyMcK3",
+          "_anchor": "image2-d4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-d4"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13239,11 +13287,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDAkG9P",
+          "_anchor": "content1-d5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-d5"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13271,11 +13319,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDB1Mtr",
+          "_anchor": "content1-d6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-d6"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13355,11 +13403,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDDuWzK",
+          "_anchor": "image2-d8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-d8"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13386,11 +13434,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDFghGs",
+          "_anchor": "content1-d9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-d9"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13474,11 +13522,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDG2rp6",
+          "_anchor": "features2-da",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features2-da"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13514,11 +13562,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDKma2c",
+          "_anchor": "content17-db",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content17-db"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13538,11 +13586,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDLBCwT",
+          "_anchor": "content4-dc",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-dc"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13577,11 +13625,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDMC73k",
+          "_anchor": "toggle1-dd",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "toggle1-dd"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13606,11 +13654,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDNTurR",
+          "_anchor": "content1-de",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-de"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13651,11 +13699,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDOKadY",
+          "_anchor": "image2-df",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-df"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13684,11 +13732,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDQOrcH",
+          "_anchor": "content1-dg",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-dg"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13768,11 +13816,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDTtINZ",
+          "_anchor": "image2-di",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-di"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13798,11 +13846,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDV9YGr",
+          "_anchor": "content1-dj",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-dj"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13914,11 +13962,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglDW1uzL",
+          "_anchor": "team1-dk",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "team1-dk"
+          "_params": {}
         },
         {
           "alias": false,
@@ -13966,11 +14014,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglE0QVy2",
+          "_anchor": "features10-dl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features10-dl"
+          "_params": {}
         },
         {
           "alias": false,
@@ -14008,11 +14056,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglE36AHa",
+          "_anchor": "image2-dm",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image2-dm"
+          "_params": {}
         },
         {
           "alias": false,
@@ -14038,11 +14086,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rMglE4UecB",
+          "_anchor": "content1-dn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-dn"
+          "_params": {}
         },
         {
           "alias": false,
@@ -14111,11 +14159,11 @@
           "_name": "footer1",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#04854e\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019<b>&nbsp;<a href=\"https://santos505.github.io/ProjetoReceitasSabonete/page7.html\" class=\"text-white\">Todos Direitos Reservado</a></b><br></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rMglE7SZtx",
+          "_anchor": "footer1-dp",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-dp"
+          "_params": {}
         }
       ]
     }
