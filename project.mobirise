@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": " APOSTILA RECEITAS SABONETE ARTESANAL ",
-    "currentPage": "page26.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise-amp",
       "title": "Mobirise AMP",
@@ -111,7 +111,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 1028,
+    "uniqCompNum": 1029,
     "versionPublish": "4.11.6",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
@@ -362,48 +362,11 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20de%20sabonete%20artesanal-697x343.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\"><br>APRENDA FAZER SABONETES COSMÉTICOS ARTESANAIS <span style=\"font-weight: normal;\">&amp;</span> PRODUTOS ARÔMATICOS</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Receitas + Passos + Fornecedores<br><b>+ Certificado de Conclusão&nbsp;</b></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20de%20sabonete%20artesanal-697x343.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\"><br>APRENDA FAZER SABONETES COSMÉTICOS ARTESANAIS <span style=\"font-weight: normal;\">&amp;</span> PRODUTOS ARÔMATICOS</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Aproveite a <b>QUARENTENA</b> para Aprender a Fazer Sabonetes Artesanais e Produtos Aromáticos e <b>FATURAR MUITO</b> sem sair de <b>CASA.</b>\n</h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-s1",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rWJdAjo7vp",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-title": {
-              "padding-bottom": "1rem",
-              "color": "#00502f",
-              "text-align": "center"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#232323"
-            },
-            ".mbr-title DIV": {
-              "text-align": "center"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20de%20sabonete%20artesanal-697x343.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\"></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>Sabonetes Fitoterapicos, Óleo corporal, Cremes de tratamento, shamphoo, Sais de banho, e muitos outros...&nbsp;</b><br><b><br></b><br><b>com o Melhor Custo Beneficio do Mercado</b>.</h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-qt",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rV78O7yFi3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -460,46 +423,33 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "& when (@flexDirection)": {
-              ".mbr-row": {
-                "-webkit-flex-direction": "row-reverse",
-                "flex-direction": "row-reverse"
-              }
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".text-block": {
-              "margin": "auto"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            "amp-img": {
+            ".mbr-title": {
+              "padding-bottom": "1rem",
+              "color": "#00502f",
               "text-align": "center"
             },
-            "@media (min-width: 768px)": {
-              ".image-block when (@flexDirection)": {
-                "padding-left": "2rem"
-              },
-              ".image-block when not (@flexDirection)": {
-                "padding-right": "2rem"
-              }
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
             },
-            "@media (max-width: 767px)": {
-              ".image-block": {
-                "padding-bottom": "1rem"
-              }
+            ".mbr-section-subtitle": {
+              "color": "#232323"
             },
-            ".btn when (@showButtons)": {
-              "margin": ".4rem 4px !important"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "left"
-            },
-            "H3": {
-              "color": "#ffffff"
+            ".mbr-title DIV": {
+              "text-align": "center"
             }
           },
-          "_name": "features10",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"flexDirection\" checked=\"\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/mulher-.jpg\" layout=\"responsive\" width=\"524\" height=\"524\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mulher-.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"></h3><h3 class=\"font-w--700\" style=\"margin: 0px; line-height: 1.35; font-size: 2.25rem; padding-top: 0px; padding-bottom: 0px; font-family: SFUI, sans-serif; color: rgb(66, 66, 66); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700 !important;\"><span style=\"font-weight: normal;\"><br></span><br><span style=\"font-weight: normal;\">Você já se</span><br>pegou <span style=\"font-weight: normal;\">pensando assim?</span></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">✔ Sonho em empreender e não sei como.\n<br><span style=\"font-family: Rubik, sans-serif; font-size: 17.6px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal;\">✔&nbsp;</span>medo de investir em um negócio e falhar.\n<br>✔ Quero vender esses produtos, mas não sei como começar.\n<br>✔ Trabalho muito e no final do mês não tenho dinheiro.\n<br>✔ Gostaria de trabalhar em casa e ter tempo para minha família.\n<br>✔ Não estou feliz no meu trabalho, mas não sei como mudar isso!<br><br>|Se você disse sim para alguma dessas afirmações, nós podemos lhe ajudar&nbsp;<br></p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">READ MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rVzyOtRHcn",
-          "_anchor": "features10-r1",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/receitas%20de%20sabonete%20artesanal-697x343.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\"></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><div><b>E se Você não tem Muito Dinheiro para Fazer um Curso Caro mas quer Ralmente Aprender ...&nbsp;<br></b></div><div><b>Então esse Material é Exclusivamente Para Você!</b><br></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-qt",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rV78O7yFi3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -518,7 +468,7 @@
             },
             ".mbr-title": {
               "padding-bottom": "1rem",
-              "color": "#232323"
+              "color": "#000000"
             },
             ".mbr-section-btn": {
               "padding-top": "1.5rem"
@@ -528,11 +478,53 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\">Comece seu Negócio de Sabonete e produtos aromaticos em sua casa, com pouco Investimento,&nbsp;<br><br>\"Clique no botão abaxo e GARANTA A SUA!\"</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-title\"><span style=\"font-weight: normal;\">Aproveite a Oportunidade para Vender pelo <br>WHATSAPP e suas REDES SOCIAIS.\n<br></span><br>Comece seu Negócio de Sabonete e produtos aromaticos em sua casa, com pouco Investimento,&nbsp;<br><br>\"Clique no botão abaxo e GARANTA A SUA!\"</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-rw",
           "_isUserblock": true,
           "_sourceTheme": "mobirise-amp",
           "_cid": "rVG62RthvF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"47\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/1588784261.gif\" layout=\"responsive\" width=\"522.6666666666666\" height=\"98\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=COMPRAPRIMEIRO\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/1588784261.gif\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image2-sk",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise-amp",
+          "_cid": "rYeepnzg94",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1508,7 +1500,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e9a6b\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\">\n<div>COMECE HOJE A PRODUZIR OS MELHORES PRODUTOS<br><span style=\"font-weight: normal;\">Veja algumas das Receitas que você vai encontrar na Apostila</span><br></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#00502f\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-title\">\n<div>COMECE HOJE A PRODUZIR OS MELHORES PRODUTOS<br><span style=\"font-weight: normal;\">Veja algumas das Receitas que você vai encontrar na Apostila</span><br></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_cid": "rrOuDwqQTX",
           "_anchor": "content1-1z",
           "_protectedParams": [],
@@ -1766,238 +1758,6 @@
           "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/soap-908220-1920-1920x1440.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\">APRENDA FAZER SABONETES e PRODUTOS AROMÁTICOS ARTESANAIS\n<div>Como FAZER e VENDER FACILMENTE</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\"><div><i>Você vai receber todos materiais para aprender e&nbsp;<b>+</b>&nbsp;de&nbsp;<b>50 Receitas </b>e <b>Lista de Fornecedores</b> de<b> </b>Materiais para começar</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_cid": "rTky7EpjCp",
           "_anchor": "content18-pk",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card": {
-              "display": "flex",
-              "-ms-flex-direction": "column",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "border-radius": "0",
-              "width": "100%",
-              "margin-bottom": "3rem",
-              "@media (max-width: 767px)": {
-                "margin-bottom": "30px"
-              },
-              ".card-wrapper": {
-                "background": "@cardBg",
-                "padding-top": "3rem",
-                "@media (max-width: 767px)": {
-                  "padding-top": "1rem"
-                }
-              },
-              "& when (@cardsAmount < '4')": {
-                "@media (min-width: 768px)": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem"
-                }
-              },
-              "& when (@cardsAmount = '4')": {
-                "@media (min-width: 768px) and (max-width: 991px)": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem"
-                }
-              }
-            },
-            ".card-img amp-img": {
-              "border-radius": "50%",
-              "width": "50%",
-              "margin": "auto"
-            },
-            ".card-img amp-img img": {
-              "border-radius": "50%"
-            },
-            ".card-subtitle": {
-              "letter-spacing": "3px",
-              "font-weight": "500"
-            },
-            ".mbr-text, .card-subtitle": {
-              "margin": "0"
-            },
-            ".card-box": {
-              "padding": "2rem 2rem 3rem",
-              "@media (max-width: 767px)": {
-                "padding": "1rem"
-              }
-            },
-            ".mbr-row when (@cardsAmount < '4')": {
-              "@media (min-width: 768px)": {
-                "margin-left": "-1.5rem",
-                "margin-right": "-1.5rem"
-              }
-            },
-            ".mbr-row when (@cardsAmount = '4')": {
-              "@media (min-width: 768px) and (max-width: 991px)": {
-                "margin-left": "-1.5rem",
-                "margin-right": "-1.5rem"
-              }
-            },
-            ".social when (@showSocial)": {
-              "& when (@showText)": {
-                "padding-top": "12px"
-              },
-              "& > *:not(:last-child)": {
-                "margin-right": "1rem"
-              },
-              ".iconfont-wrapper": {
-                "width": "~\"@{iconsSize}rem\"",
-                "height": "~\"@{iconsSize}rem\"",
-                "& when ((@iconsSize * 16) > 30)": {
-                  "@media (max-width: 767px)": {
-                    "height": "30px",
-                    "width": "30px"
-                  }
-                }
-              },
-              ".amp-iconfont": {
-                "width": "~\"@{iconsSize}rem\"",
-                "font-size": "~\"@{iconsSize}rem\"",
-                "color": "@iconsColor",
-                "& when ((@iconsSize * 16) > 30)": {
-                  "@media (max-width: 767px)": {
-                    "font-size": "30px",
-                    "width": "30px"
-                  }
-                }
-              }
-            }
-          },
-          "_name": "team1",
-          "_customHTML": "<section class=\"team1 mbr-section\" group=\"Testimonials &amp; Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Specialty\" name=\"showSpecialty\">\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        \n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Social Count\" name=\"iconsCount\" min=\"1\" max=\"9\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"iconsColor\" value=\"#232323\" condition=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Size Social\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"0.8\" condition=\"showSocial\">\n        \n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/233860-conheca-x-receitas-de-sabonete-artesanal-para-arrasar-nas-vendas-2000x1333.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#4e025c\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/2-150x150.jpg\" layout=\"responsive\" width=\"128\" height=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/2-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Artesã</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\">✔ Tudo Sobre <b>Sabonete Liquido</b></h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Eu ja trabalho com Saboaria a<br> 3 anos tinha dificuldade para encontrar receitas diferentes que tem na internet. Graças a Deus Encontrei a Apostila de Receitas me Ajudou muito.obrigada!<br><br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/9-150x150.jpg\" layout=\"responsive\" height=\"128\" width=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/9-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Lista de Materiais necessário para embalagens</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\">✔ Receita de sabonete artesanal,&nbsp;<b>prontas Exclusivas</b> para voce iniciar a produção</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Sou Iniciante no ramo da Saboaria mas depois que adquiri a Apostila receitas Sabonetes Artesanais Consegui Fazer otimos Sabonetes Fitoterapicos Minhas amigas ja estão pedindo. Adoreiii.&nbsp;</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/5-150x150.jpg\" layout=\"responsive\" height=\"128\" width=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/5-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Terapeuta</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\">&nbsp; ✔ Receitas de <b>Sais de Banho</b><br></h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            O que mais gostei da Apostila de Receitas foram os 5 Bônus Com Fornecedores e as receitas de Detergente, Amaciante, Sais de Banhos, Composicoes de Essências Recomendo!!!</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/3-150x150.jpg\" layout=\"responsive\" height=\"128\" width=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/3-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Dona de Casa</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\">✔Aprenda <b>Como vender</b> seus Produtos (Formas eficiêntes)</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Sempre gostei de fazer artesanato e recentimente aderi em fazer sabonetes para meu uso proprio e para familia gostei por ser Naturais e ricos em Beneficios para pele. a Apostila tem me ajudado.é como uma receita de bolo.rs<br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "team1-k6",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rPIJ4ez0Ho",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".card": {
-              "display": "flex",
-              "-ms-flex-direction": "column",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "border-radius": "0",
-              "width": "100%",
-              "margin-bottom": "3rem",
-              "@media (max-width: 767px)": {
-                "margin-bottom": "30px"
-              },
-              ".card-wrapper": {
-                "background": "@cardBg",
-                "padding-top": "3rem",
-                "@media (max-width: 767px)": {
-                  "padding-top": "1rem"
-                }
-              },
-              "& when (@cardsAmount < '4')": {
-                "@media (min-width: 768px)": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem"
-                }
-              },
-              "& when (@cardsAmount = '4')": {
-                "@media (min-width: 768px) and (max-width: 991px)": {
-                  "padding-left": "1.5rem",
-                  "padding-right": "1.5rem"
-                }
-              }
-            },
-            ".card-img amp-img": {
-              "border-radius": "50%",
-              "width": "50%",
-              "margin": "auto"
-            },
-            ".card-img amp-img img": {
-              "border-radius": "50%"
-            },
-            ".card-subtitle": {
-              "letter-spacing": "3px",
-              "font-weight": "500"
-            },
-            ".mbr-text, .card-subtitle": {
-              "margin": "0"
-            },
-            ".card-box": {
-              "padding": "2rem 2rem 3rem",
-              "@media (max-width: 767px)": {
-                "padding": "1rem"
-              }
-            },
-            ".mbr-row when (@cardsAmount < '4')": {
-              "@media (min-width: 768px)": {
-                "margin-left": "-1.5rem",
-                "margin-right": "-1.5rem"
-              }
-            },
-            ".mbr-row when (@cardsAmount = '4')": {
-              "@media (min-width: 768px) and (max-width: 991px)": {
-                "margin-left": "-1.5rem",
-                "margin-right": "-1.5rem"
-              }
-            },
-            ".social when (@showSocial)": {
-              "& when (@showText)": {
-                "padding-top": "12px"
-              },
-              "& > *:not(:last-child)": {
-                "margin-right": "1rem"
-              },
-              ".iconfont-wrapper": {
-                "width": "~\"@{iconsSize}rem\"",
-                "height": "~\"@{iconsSize}rem\"",
-                "& when ((@iconsSize * 16) > 30)": {
-                  "@media (max-width: 767px)": {
-                    "height": "30px",
-                    "width": "30px"
-                  }
-                }
-              },
-              ".amp-iconfont": {
-                "width": "~\"@{iconsSize}rem\"",
-                "font-size": "~\"@{iconsSize}rem\"",
-                "color": "@iconsColor",
-                "& when ((@iconsSize * 16) > 30)": {
-                  "@media (max-width: 767px)": {
-                    "font-size": "30px",
-                    "width": "30px"
-                  }
-                }
-              }
-            }
-          },
-          "_name": "team1",
-          "_customHTML": "<section class=\"team1 mbr-section\" group=\"Testimonials &amp; Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Specialty\" name=\"showSpecialty\">\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        \n        <input type=\"checkbox\" title=\"Show Social\" name=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Social Count\" name=\"iconsCount\" min=\"1\" max=\"9\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"iconsColor\" value=\"#232323\" condition=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Size Social\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"0.8\" condition=\"showSocial\">\n        \n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/233860-conheca-x-receitas-de-sabonete-artesanal-para-arrasar-nas-vendas-2000x1333.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#4e025c\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/7-150x150.jpg\" layout=\"responsive\" width=\"128\" height=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/7-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Artesã</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\"><b>✔ Passo a Passo</b>&nbsp; para Fazer seus Sabonetes</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Eu ja trabalho com Saboaria a<br> 3 anos tinha dificuldade para encontrar receitas diferentes que tem na internet. Graças a Deus Encontrei a Apostila de Receitas me Ajudou muito.obrigada!<br><br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/10-150x150.jpg\" layout=\"responsive\" height=\"128\" width=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/10-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Lista de Materiais necessário para embalagens</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\">✔ <b>Lista Materias </b>Necessarios para começar</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Sou Iniciante no ramo da Saboaria mas depois que adquiri a Apostila receitas Sabonetes Artesanais Consegui Fazer otimos Sabonetes Fitoterapicos Minhas amigas ja estão pedindo. Adoreiii.&nbsp;</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/1-150x150.jpg\" layout=\"responsive\" height=\"128\" width=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/1-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Terapeuta</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\">&nbsp; ✔ <b>Tabela</b> de orientaçoes de Medidas<br><br></h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            O que mais gostei da Apostila de Receitas foram os 5 Bônus Com Fornecedores e as receitas de Detergente, Amaciante, Sais de Banhos, Composicoes de Essências Recomendo!!!</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/8-150x150.jpg\" layout=\"responsive\" height=\"128\" width=\"128\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/8-150x150.jpg\" alt=\"Mobirise\" title=\"\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"mbr-fonts-style card-subtitle align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".card-subtitle, .social\" mbr-if=\"showSpecialty\">Dona de Casa</h4>\n                        <h3 class=\"card-title mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".card-title, .social\"><b>Video Aula</b>&nbsp;de como Fazer sabonete arômatico</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Sempre gostei de fazer artesanato e recentimente aderi em fazer sabonetes para meu uso proprio e para familia gostei por ser Naturais e ricos em Beneficios para pele. a Apostila tem me ajudado.é como uma receita de bolo.rs<br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "team1-k5",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise-amp",
-          "_cid": "rPIIYcsl6X",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -23869,11 +23629,11 @@
           "_name": "menu1",
           "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"35\" max=\"120\" value=\"100\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"35\" max=\"120\" value=\"99\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked=\"\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#4e025c\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#4e025c\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/logo-oficial.png\" layout=\"responsive\" width=\"99\" height=\"99\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/logo-oficial.png\" alt=\"Mobirise\" title=\"\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><span style=\"font-weight: normal;\">APOSTILA OFICIAL</span></p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">INICIO</a>\n              <a class=\"text-primary\" href=\"page1.github.ioProjetoReceitasSabonetepage1.html\" data-app-placeholder=\"Type Text\">CONTATO</a>\n              <a class=\"text-primary\" href=\"http://bit.ly/topsite-aulagratis-pgcapitura\" data-app-placeholder=\"Type Text\" target=\"_blank\">AULA GRÁTIS</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-success\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">GERAR CERTIFICADO</a></div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
           "_cid": "rmGhFbzWxa",
+          "_anchor": "menu1-se",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-se"
+          "_params": {}
         },
         {
           "alias": false,
@@ -24036,11 +23796,11 @@
           "_name": "footer1",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/seguro-119x44.png\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff6900\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">© Copyright 2020&nbsp;<a href=\"https://revistapegn.globo.com/Empreendedorismo/noticia/2017/08/empresa-fatura-r-24-milhoes-com-sabonetes-veganos.html\" target=\"_blank\" class=\"text-white\">Apostila de Receitas Sabonete Artesanal </a>Oficial <br>Todos Direitos Reservado e protegidos&nbsp;<i><b><a href=\"page7.html\" class=\"text-white\">Politicas e Privacidades</a>&nbsp;</b></i></p>\n        </div>\n    </div>\n</section>",
           "_cid": "rmq508ibcS",
+          "_anchor": "footer1-sf",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-sf"
+          "_params": {}
         }
       ]
     }
