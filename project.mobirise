@@ -171,7 +171,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/93844314-blue-washing-liquid-bubble-background-close-up-abstract-bubble-texture-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#870094\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">APRENDA FAZER SABONETE &amp; PRODUTOS AROMÁTICO<br><i style=\"font-family: inherit; font-size: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: normal;\">&nbsp;Com Apostilas de Receitas + PASSO a PASSO\n</i></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><b><i>Disponha de apenas 2 HORAS POR DIA para fazer e Lucrar no ramo que mais Cresce no Mundo</i></b></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/93844314-blue-washing-liquid-bubble-background-close-up-abstract-bubble-texture-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#64bf46\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">Transforme um Pequeno Cantinho de Sua casa<br>em uma MINI FABRICA de SABONETE &amp; PRODUTOS ARTESANAIS&nbsp;<br><i style=\"font-family: inherit; font-size: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: normal;\">Apostilas de Receitas + PASSO a PASSO\n</i></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><b><i>Disponha de apenas 2 HORAS POR DIA para fazer e Lucrar no ramo que mais Cresce no Mundo</i></b></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-1fq",
           "_isUserblock": true,
           "_cid": "sEYqk1YuVl",
@@ -246,94 +246,10 @@
           },
           "_name": "image2",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"78\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ff8f00\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg\" layout=\"responsive\" width=\"864.2158352402745\" height=\"524.531\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"https://app.monetizze.com.br/checkout/CJC79831\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">Produza em Casa Sabonetes e produtos tratamento</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"78\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#64bf46\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg\" layout=\"responsive\" width=\"864.2158352402745\" height=\"524.531\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"https://app.monetizze.com.br/checkout/CJC79831\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/sabonetes-aretesanais-1440x874.jpg\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">Produza em Casa Sabonetes e produtos tratamento</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "image2-1fy",
           "_isUserblock": true,
           "_cid": "t73enwQxPI",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background-color": "@bgColor",
-            "& when not (@fullWidth)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "width": "~\"@{videoSize}%\"",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "amp-img": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "margin": "0",
-              "padding": ".5rem 0",
-              "& when (@fullWidth)": {
-                "padding": ".5rem 15px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "image2",
-          "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"image2\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/arrow-red-2-291x127.png\" layout=\"responsive\" width=\"221.5795440944882\" height=\"96.7031\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=meusitebot1\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/arrow-red-2-291x127.png\" alt=\"Mobirise\" title></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "image2-1bc",
-          "_isUserblock": true,
-          "_cid": "slkm952XsO",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background-color": "@bgColor",
-            "& when not (@fullWidth)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "width": "~\"@{videoSize}%\"",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "amp-img": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "margin": "0",
-              "padding": ".5rem 0",
-              "& when (@fullWidth)": {
-                "padding": ".5rem 15px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "image2",
-          "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"47\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/apostila-saboaria-artesanal-completa-360x640.png\" layout=\"responsive\" width=\"520.743375\" height=\"925.766\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=meusitebot1\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/apostila-saboaria-artesanal-completa-360x640.png\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "image2-1f9",
-          "_isUserblock": true,
-          "_cid": "sDTOKHqW09",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -355,6 +271,48 @@
           "_anchor": "content4-1ak",
           "_isUserblock": true,
           "_cid": "sja4LtY8YX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/arrow-red-2-291x127.png\" layout=\"responsive\" width=\"221.5795440944882\" height=\"96.7031\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=meusitebot1\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/arrow-red-2-291x127.png\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"><br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image2-1bc",
+          "_isUserblock": true,
+          "_cid": "slkm952XsO",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -923,49 +881,6 @@
           "_anchor": "team1-1af",
           "_isUserblock": true,
           "_cid": "sil0gNZpny",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "background-color": "@bgColor",
-            "& when not (@fullWidth)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            ".image-block": {
-              "margin": "auto",
-              "width": "~\"@{videoSize}%\"",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "amp-img": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "margin": "0",
-              "padding": ".5rem 0",
-              "& when (@fullWidth)": {
-                "padding": ".5rem 15px"
-              },
-              "color": "#7a1a93"
-            },
-            "@media (max-width: 767px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            }
-          },
-          "_name": "image2",
-          "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/depoimentos-de-alunas1-apostila-de-receitas-sabonetes-artesanais-passo-a-passoo-min-compressed-1.jpg\" layout=\"responsive\" width=\"731.2652210526317\" height=\"1300.94\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/depoimentos-de-alunas1-apostila-de-receitas-sabonetes-artesanais-passo-a-passoo-min-compressed-1.jpg\" alt=\"Mobirise\" title=\"\">\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    Create awesome and FAST websites!\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "image2-1cj",
-          "_isUserblock": true,
-          "_cid": "sy61alcKdl",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1866,45 +1781,40 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-title": {
-              "color": "#000000"
-            },
-            ".mbr-section-subtitle, .mbr-section-btn": {
-              "color": "#ec0404"
-            }
-          },
-          "_name": "content1",
-          "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"mbr-section 01\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\"><i style>De 197,00</i></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" class=\"mbr-section-subtitle align-center mbr-regular mbr-pt-2 mbr-fonts-style\" mbr-theme-style=\"display-1\"><b>Por Apenas:</b><br><b>47,00</b><br><b><i> SOMENTE HOJE!</i></b><br></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-success\" href=\"http://mon.net.br/9pa1a?src=meusitemobi\" data-app-placeholder=\"Type Text\">CLIQUE AQUI E GARANTA!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "slkkG8gFNI",
-          "_anchor": "content1-1bb",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "amp-img": {
+              "text-align": "center"
+            },
             ".mbr-text": {
-              "color": "#000000"
+              "margin": "0",
+              "padding": ".5rem 0",
+              "& when (@fullWidth)": {
+                "padding": ".5rem 15px"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
             }
           },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-text align-center mbr-fonts-style mbr-light mbr-py-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" mbr-text>Se gostou da ideia essa é sua oportunidade&nbsp;<b>clique no</b>&nbsp;<b>botão acima</b>&nbsp;para garantir já! Na&nbsp;<b>Promoção!</b></div>\n    </div>\n</section>",
-          "_cid": "sa81SygTJE",
-          "_anchor": "content4-132",
+          "_name": "image2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"image2\" group=\"Images &amp; Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"47\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Caption\" name=\"showText\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"showText==true\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"image-block\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/apostila-saboaria-artesanal-completa-360x640.png\" layout=\"responsive\" width=\"520.743375\" height=\"925.766\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                <div placeholder=\"\" class=\"placeholder\"></div>\n                <a href=\"http://mon.net.br/9pa1a?src=meusitebot1\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/apostila-saboaria-artesanal-completa-360x640.png\" alt=\"Mobirise\" title=\"\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text=\"\" class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "image2-1f9",
+          "_isUserblock": true,
+          "_cid": "sDTOKHqW09",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
